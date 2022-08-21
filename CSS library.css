@@ -1,0 +1,160 @@
+{
+background
+background-color: #xxx;
+color: #xxx;
+font-family: ;
+font-size: xxxpx;
+font-weight: bold;
+width: xxxpx; 100%
+height: xxxpx;
+padding: xxxpx;
+border: solid 10px #xxx;
+border-radius: top-left, top-right, bottom-right, bottom-left;
+margin-top: xxxpx;
+margin-right: xxxpx;
+margin-bottom: xxxpx;
+margin-left: xxxpx;
+margin: Top right bottom left;
+text-align:center/right/left;
+display: inline/block/inline-block; //height and width don't work on inline element
+         flex; //flexbox
+         grid; //
+flex-direction: row/column/row-reverse/column-reverse;
+justify-content: flex-start/flex-end/center/space-around/space-between;
+align-items: stretch/flex-start/flex-end/center/start/end;
+align-content: stretch/flex-start
+flex-wrap: nowrap/wrap/wrap-reverse;
+
+flex-grow: 0/1;
+flex-shrink: 0/1;
+flex-basis: auto;
+flex: 0 1 auto;
+
+grid-template-rows:
+grid-template-columns: auto auto auto auto;
+                     : 40% 60%;
+                     : 50px 1fr 1fr;
+                     : repeat(3, 1fr);
+grid-template: 50px 50px / 150px 150px;
+
+row-gap: 5px;
+column-gap: 5px;
+gap: 5px 10px; // rows and columns
+
+grid-column: span 2;
+grid-row: span 2;
+
+grid-area: item1;
+grid-template-areas: "item1 item2 item3";
+                     "item1 item1 item2"
+                     ". item1 . item2"
+
+grid-template-areas: "item1 item2"
+                     "item3 item4";
+
+justify-items: stretch;
+               start;
+               end;
+               center;
+
+visibility: hidden;
+float: center/right/left;
+clear: right/left;
+position: relative/absolute;
+z-index: 0/-1/1/2;
+top: 30px;
+right: 30px;
+bottom: 30px;
+left: 30px;
+padding-right: 200px;
+padding-left: 200px;
+padding-top: 200px;
+padding-bottom: 200px;
+padding: Top right bottom left;
+
+transform: rotate(90deg);
+transform: rotate( - 90deg);
+filter: blur(2px);
+filter: grayscale(0%);
+filter: opacity(50%);
+filter: brightness(20%) saturate(50%) contrast(50%); //support over 100%
+background: linear-gradient(sandyBrown, saddleBrown); //from top to bottom
+            linear-gradient(90deg, sandyBrown, saddleBrown); //from left to right
+            linear-gradient(to right, sandyBrown, saddleBrown);
+}
+
+body {
+
+}
+
+p, .xxx, h2 {
+
+}
+
+#xxx {
+
+}
+
+.xxx {
+
+}
+
+//box example
+.container {
+  height:
+  width:
+  background-color:
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item {
+  margin:
+  padding:
+  flex-basis:
+  text-align:
+  flex-grow:
+}
+
+//box example 2
+.one {
+  flex-grow: 1;
+  background-color: red;
+}
+
+.two {
+  flex-grow: 1;
+  background-color: yellow;
+}
+
+.three {
+  flex-grow: 1;
+  background-color: blue;
+}
+
+.container {
+  border: solid 1px #d37947;
+  display: flex;
+}
+
+//grid example
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+//bootstrap code
+//div+column
+class="container-fluid"
+class="col-1"/class="col-4"
+class="col-3 offset-4"
+//p, h1
+class="lead"
+class="text-uppercase"
+class="text-primary"
+class="bg-primary"
+class="text-white bg-primary"
