@@ -1,8 +1,9 @@
 //bootstrap code
 - card
+class="card m-2"
 class="card-header"
-class="card-img-top"
 class="card-body"
+class="card-img-top"
 class="card-title"
 class="card-text"
 class="card-footer"
