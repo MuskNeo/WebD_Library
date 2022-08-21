@@ -12,7 +12,7 @@ class="col text-center"
 - p, h1
 class="lead"
 class="text-uppercase"
-class="text-
+class="text-lowercase"
 class="text-primary"
 class="bg-light"
 class="text-success"
