@@ -1,4 +1,11 @@
 //bootstrap code
+- card
+class="card-header"
+class="card-img-top"
+class="card-body"
+class="card-title"
+class="card-text"
+class="card-footer"
 - a, nav, img
 class="navbar navbar-expand-md"
 class="navbar-brand"
@@ -17,3 +24,8 @@ class="text-primary"
 class="bg-light"
 class="text-success"
 class="text-white bg-primary rounded p-2 m-2 shadow"
+- button
+class="btn-success"
+class="btn-danger"
+class="btn-lg"
+class="btn-sm"
