@@ -146,15 +146,3 @@ p, .xxx, h2 {
   background-color: #2196F3;
   padding: 10px;
 }
-
-//bootstrap code
-//div+column
-class="container-fluid"
-class="col-1"/class="col-4"
-class="col-3 offset-4"
-//p, h1
-class="lead"
-class="text-uppercase"
-class="text-primary"
-class="bg-primary"
-class="text-white bg-primary"
